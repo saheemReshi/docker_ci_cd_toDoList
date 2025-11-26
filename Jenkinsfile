@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKERHUB_USER = "saheemReshi"     
+        DOCKERHUB_USER = "saheemreshi"     
         IMAGE = "${DOCKERHUB_USER}/todo-cli-app:latest"
         REPO_URL = "https://github.com/saheemReshi/docker_ci_cd_toDoList" 
     }
